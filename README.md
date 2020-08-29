@@ -4,8 +4,8 @@
 
 # Homebridge Honeywell Home
 
-<a href="https://www.npmjs.com/package/homebridge-honeywell-home"><img title="npm version" src="https://badgen.net/npm/v/homebridge-honeywell-home" ></a>
-<a href="https://www.npmjs.com/package/homebridge-honeywell-home"><img title="npm downloads" src="https://badgen.net/npm/dt/homebridge-honeywell-home" ></a>
+<a href="https://www.npmjs.com/package/homebridge-honeywell-home-thermostat"><img title="npm version" src="https://badgen.net/npm/v/homebridge-honeywell-home" ></a>
+<a href="https://www.npmjs.com/package/homebridge-honeywell-home-thermostat"><img title="npm downloads" src="https://badgen.net/npm/dt/homebridge-honeywell-home" ></a>
 
 <p><a href="https://honeywellhome.com">Honeywell Home</a> plugin for 
   <a href="https://homebridge.io">Homebridge</a>. 
