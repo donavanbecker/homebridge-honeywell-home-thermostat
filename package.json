@@ -1,7 +1,7 @@
 {
   "displayName": "Homebridge Honeywell Home Thermostats",
   "name": "homebridge-honeywell-home-thermostat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Honeywell Home https://honeywellhome.com plugin for Homebridge: https://github.com/homebridge/homebridge.",
   "author": "donavanbecker",
   "license": "Apache-2.0",
@@ -42,7 +42,11 @@
     "homebridge-plugin",
     "honeywell",
     "honeywell-home",
-    "thermostat"
+    "honeywellhome",
+    "honeywell-home-thermostat",
+    "thermostat",
+    "thermostat-fan",
+    "fan"
   ],
   "dependencies": {
     "axios": "^0.19.2",
