@@ -94,14 +94,15 @@ export class HoneywellHomeThermostatPlatform implements DynamicPlatformPlugin {
     if (!this.config.options || typeof this.config.options !== 'object') {
       this.config.options = {};
     }
-
+    if (!this.config.options.thermostat || typeof this.config.options.thermostat !== 'object') {
+      this.config.options.thermostat = {};
+    }
+    this.config.options.thermostat.hide_fan;
     this.config.options.ttl = this.config.options.ttl || 1800; // default 1800 seconds
-
     if (!this.config.credentials.consumerSecret && this.config.options.ttl < 1800) {
       this.log.debug('TTL must be set to 1800 or higher unless you setup your own consumerSecret.');
       this.config.options.ttl = 1800;
     }
-
     if (!this.config.credentials) {
       throw new Error('Missing Credentials');
     }
