@@ -7,10 +7,10 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/donavanbecker/homebridge-honeywell-home.git"
+    "url": "git://github.com/donavanbecker/homebridge-honeywell-home-thermostat.git"
   },
   "bugs": {
-    "url": "https://github.com/donavanbecker/homebridge-honeywell-home/issues"
+    "url": "https://github.com/donavanbecker/homebridge-honeywell-home-thermostat/issues"
   },
   "engines": {
     "node": ">=12.0.0",
