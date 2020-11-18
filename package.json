@@ -1,7 +1,7 @@
 {
   "displayName": "Homebridge Honeywell Home Thermostats",
   "name": "homebridge-honeywell-home-thermostat",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A Honeywell Home https://honeywellhome.com plugin for Homebridge: https://github.com/homebridge/homebridge.",
   "author": "donavanbecker",
   "license": "Apache-2.0",
@@ -54,22 +54,22 @@
     "humidity"
   ],
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.0",
     "rxjs": "^6.6.3"
   },
   "devDependencies": {
-    "@types/node": "^14.10.3",
-    "@typescript-eslint/eslint-plugin": "^4.1.1",
-    "@typescript-eslint/parser": "^4.1.1",
-    "eslint": "^7.9.0",
+    "@types/node": "^14.14.8",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.13.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "homebridge": "^1.2.2",
-    "homebridge-config-ui-x": "^4.27.1",
-    "nodemon": "^2.0.4",
+    "homebridge": "^1.1.6",
+    "homebridge-config-ui-x": "^4.33.0",
+    "nodemon": "^2.0.6",
     "prettier": "^2.1.2",
     "rimraf": "^3.0.2",
     "ts-node": "^9.0.0",
-    "typescript": "^4.0.2",
+    "typescript": "^4.0.5",
     "typescript-axios-wb": "^1.0.3"
   }
 }

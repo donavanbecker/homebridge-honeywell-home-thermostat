@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. This project uses [Semantic Versioning](https://semver.org/)
 
+## [Version 2.1.0](https://github.com/donavanbecker/homebridge-honeywell-home/compare/v2.0.0...v2.1.0) (2020-11-18)
+
+### Changes
+
+- Fix for `Cannot set property 'ttl' of undefined`.
+- Updated other dependencies.
+
 ## [Version 2.0.0](https://github.com/donavanbecker/homebridge-honeywell-home/compare/v1.1.0...v2.0.0) (2020-09-17)
 
 ### Major Changes

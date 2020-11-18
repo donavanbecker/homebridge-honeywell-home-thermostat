@@ -9,7 +9,6 @@ on:
 
 jobs:
   build:
-
     strategy:
       matrix:
         node-version: [12.x, 13.x, 14.x]
@@ -18,9 +17,9 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-      - uses: actions/checkout@v2.3.2
+      - uses: actions/checkout@v2.3.4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2.1.1
+        uses: actions/setup-node@v2.1.2
         with:
           node-version: ${{ matrix.node-version }}
       - name: npm install, build and test
@@ -33,15 +32,15 @@ jobs:
 
   publish-npm:
     # publish only if we are on our own repo, event was 'release' (a tag was created) and the tag starts with "v" (aka version tag)
-    if: github.repository == 'donavanbecker/homebridge-honeywell-home-thermostat' && github.event_name == 'release' && startsWith(github.ref, 'refs/tags/v')
+    if: github.repository == 'donavanbecker/homebridge-honeywell-home' && github.event_name == 'release' && startsWith(github.ref, 'refs/tags/v')
 
     needs: build # only run if build succeeds
 
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2.3.2
-      - uses: actions/setup-node@v2.1.1
+      - uses: actions/checkout@v2.3.4
+      - uses: actions/setup-node@v2.1.2
         with:
           node-version: 12 # use the minimum required version
           registry-url: https://registry.npmjs.org/
