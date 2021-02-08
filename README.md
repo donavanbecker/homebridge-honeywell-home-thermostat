@@ -4,32 +4,5 @@
 
 # Homebridge Honeywell Home Thermostat
 
-<a href="https://www.npmjs.com/package/homebridge-honeywell-home-thermostat"><img title="npm version" src="https://badgen.net/npm/v/homebridge-honeywell-home-thermostat" ></a>
-<a href="https://www.npmjs.com/package/homebridge-honeywell-home-thermostat"><img title="npm downloads" src="https://badgen.net/npm/dt/homebridge-honeywell-home-thermostat" ></a>
+This plugin has been archived and deprecated in favor of [homebridge-honeywell-home](https://github.com/donavanbecker/homebridge-honeywell-home)
 
-<p><a href="https://honeywellhome.com">Honeywell Home</a> plugin for 
-  <a href="https://homebridge.io">Homebridge</a>. 
-  
-  This Plugin allows you to control your T5, T6 and T9 Honeywell Home thermostats from HomeKit.
-</p>
-
-</span>
-
-## Installation
-
-1. Search for "Honeywell Home" on the plugin screen of [Homebridge Config UI X](https://github.com/oznu/homebridge-config-ui-x).
-2. Click **Install**.
-
-## Configuration
-
-1. Login / create an account at https://developer.honeywellhome.com/user
-2. Click **Create New App**
-3. Give your application a name, and enter the Callback URL as `https://homebridge-honeywell.iot.oz.nu/link-account`
-4. Enter the generated consumer key and secret into the plugin settings screen of [Homebridge Config UI X](https://github.com/oznu/homebridge-config-ui-x)
-5. Click **Link Account**
-
-<p align="center">
-
-<img src="https://user-images.githubusercontent.com/3979615/88920827-d5b97680-d2b0-11ea-9002-15209eebd995.png" width="600px">
-
-</p>
